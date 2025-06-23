@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EchoTask - Your Premium ToDo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <div class="top">
+                <h1>EchoTask </h1>
+                <img src="assets/icon.png" alt="EchoTask icon">                
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add a new task...">
+                <button onclick="addTask()" id="add-button">+</button>
+            </div>
+            <div class="task">
+                <ul id="task-list">
+                    </ul>
+            </div>
+
+            <div class="share-actions">
+                <button id="twitter-share-button">Share on Twitter</button>
+                <button id="whatsapp-share-button">Share on WhatsApp</button>
+                <button id="linkedin-share-button">Share on LinkedIn</button>
+                <button id="discord-share-button">Share on Discord</button> <button id="copy-button">Copy Tasks</button> </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
