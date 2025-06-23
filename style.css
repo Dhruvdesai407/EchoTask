@@ -274,6 +274,7 @@ ul li span:hover {
     box-shadow: 5px 5px 0px #003049; 
     transition: all 0.2s ease-out;
     flex-shrink: 0; 
+    width: calc((100% - (2 * 15px)) / 3); 
 }
 
 .todo-app .share-actions button:hover {
@@ -388,6 +389,7 @@ ul li span:hover {
         padding: 8px 12px; 
         font-size: 0.85em; 
         box-shadow: 3px 3px 0px #003049; 
+        width: calc((100% - 8px) / 2); 
     }
     .todo-app .share-actions button:hover {
         transform: translateY(1.5px) translateX(1.5px);
