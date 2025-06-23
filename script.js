@@ -6,6 +6,7 @@ const whatsappShareButton = document.getElementById('whatsapp-share-button');
 const linkedinShareButton = document.getElementById('linkedin-share-button');
 const discordShareButton = document.getElementById('discord-share-button');
 const copyButton = document.getElementById('copy-button');
+const githubButton = document.getElementById('github-button'); // NEW DECLARATION
 
 function addTask() {
     if (inputBox.value === '') {
@@ -112,6 +113,11 @@ function copyTasksToClipboard() {
         });
 }
 
+function openGitHubRepo() {
+    window.open('https://github.com/Dhruvdesai407/EchoTask/tree/main', '_blank');
+}
+
+
 if (twitterShareButton) {
     twitterShareButton.addEventListener('click', shareOnTwitter);
 }
@@ -126,6 +132,9 @@ if (discordShareButton) {
 }
 if (copyButton) {
     copyButton.addEventListener('click', copyTasksToClipboard);
+}
+if (githubButton) { 
+    githubButton.addEventListener('click', openGitHubRepo);
 }
 
 showTask();
