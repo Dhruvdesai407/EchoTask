@@ -21,7 +21,7 @@ EchoTask stands as a testament to the power of **HTML5, CSS3, and JavaScript**, 
 
 Curious to see it in action? Paste your project link here:
 
-[**YOUR PROJECT LIVE DEMO LINK HERE**](https://your-project-link.com)
+[**Click Here**](https://dhruvdesai407.github.io/EchoTask/)
 
 ---
 
